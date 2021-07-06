@@ -1,17 +1,22 @@
 body {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
 }
 h1 {
   font-size: 65px;
-  color: gray;
+  color: rgb(25, 21, 21);
   line-height: 0.5;
 }
-
+.Text-move {
+  padding-top: 180px;
+  padding-left: 100px;
+}
 #section-paragraph {
-  font-size: 25px;
-  padding-top: 10px;
-  padding-bottom: 40px;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  color: rgb(243, 207, 167);
 }
 span {
   color: orange;
@@ -20,19 +25,16 @@ span {
   display: flex;
 }
 .padding-top {
-  padding-top: 100px;
+  padding-top: 90px;
 }
-.margin-bottom{
-    margin-bottom: 80px;
+.margin-bottom {
+  margin-bottom: 80px;
 }
 .half-width {
   width: 50%;
   padding-left: 5%;
 }
-.Text-move {
-  padding-top: 170px;
-  padding-left: 100px;
-}
+
 .button {
   background-image: linear-gradient(orange, tomato);
   text-decoration: none;
@@ -53,59 +55,101 @@ span {
   padding-left: 250px;
   padding-right: 330px;
 }
-h2 {
+.second-section h2 {
   font-size: 40px;
-  color: gray;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(14, 10, 10, 0.51);
 }
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(14, 10, 10);
+  }
 #seceond-section-paragraph {
   font-size: 20px;
-  padding-bottom: 45px;
+  padding-bottom: 80px;
   margin-right: 200px;
 }
-.third-section{
-    margin-top: 50px;
+.third-section {
+  margin-top: 50px;
 }
 .center-section {
   margin: 0 auto;
   text-align: center;
 }
-.center-section p{
-    margin-left: 25%;
-    margin-right: 25%;
+.center-section p {
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 20px;
+}
+.thrid-section-bonas {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+.thrid-section-bonas h2 {
+  text-align: center;
+  font-weight: 800;
+  font-family: popins;
+}
+.thrid-section-bonas p{
     font-size: 20px;
-}
-.thrid-section-bonas{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin-right: 30px;
-    margin-top: 50px;
-}
-.threeple-width{
-    width: 25%;
-    padding-top: 18px;
-    border-radius: 20px;
-    box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.163);
-    margin-left: 60px;
-}
-.threeple-width img{
-    height: 250px;
-}
-.last-section{
+    text-align: left;
+    padding-left: 20px ;
+    padding-right: 20px ;
     
-    text-align: center;
-    justify-content: center;
-    align-items: center;
 }
-.last-section-bonus{
-    border-left: white solid 160px;
-    border-right: white solid 180px;
-    box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.163);
-    margin-left: 2%;
-    border-radius: 20px;
+.threeple-width {
+  width: 25%;
+  padding-top: 18px;
+  border-radius: 25px;
+  box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.163);
+  margin-left: 60px;
 }
-#middle-man{
-    padding-left: 220px;
-    padding-right: 220px;
+.threeple-width img {
+  height: 250px;
+}
+.last-section {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.last-section-bonus {
+  border-left: white solid 160px;
+  border-right: white solid 180px;
+  box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.163);
+  margin-left: 2%;
+  border-radius: 25px;
+}
+.last-section-bonus h1{
+    margin-top: 90px;
+}
+.last-section-bonus p{
+    margin-bottom: 90px;
+    margin-top: 0px;
+    font-size: 20px;
+    
+}
+#middle-man {
+  padding-left: 220px;
+  padding-right: 220px;
 }
 
+footer {
+  background-color: black;
+  height: 280px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+footer h2 {
+  padding-top: 20px;
+  color: white;
+}
+footer p {
+  color: white;
+}
